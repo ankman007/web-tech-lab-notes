@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        input, select, button, label{
+            margin: 15px;
+        }
+        fieldset{
+            margin: 10px;
+        }
+        .buttons{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>NCCS College Of IT</h1>
+        <p>Student Detail Form</p>
+    </header>
+    <hr style="background-color: blue; height: 5px; margin: 20px;">
+
+    <form action="post.php">
+        <fieldset>
+            <legend >Personal Information</legend>
+    
+            <label for="name">Name: </label>
+            <input type="text"><br>
+    
+            <label for="address">Address: </label>
+            <input type="address"><br>
+    
+            <label for="Sex">Sex: </label>
+            <input type="radio"><label for="male">Male </label>
+            <input type="radio"><label for="female">Female</label><br>
+    
+            <label for="color">Input your faviourite color: </label>
+            <input type="color"><br>
+    
+            <label for="dob">Date of Birth: </label>
+            <input type="date"><br>
+    
+            <label for="citizenship">Upload Your Citizenship photo: </label>
+            <input type="file"><br>
+    
+            <label for="mobile">Mobile number: </label>
+            <input type="tel"><br>
+    
+            <label for="time">Appointment Time: </label>
+            <input type="time"><br>
+    
+        </fieldset>
+        <fieldset>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" ><label for="">Movies</label>
+            <input type="checkbox" ><label for="">Playing Football</label>
+            <input type="checkbox" ><label for="">Reading Books</label>
+            <input type="checkbox" ><label for="">Others</label><br>
+
+            <label for="education">Education</label>
+            <select name="education" id="education">
+                <option value="Select">Select</option>
+                <option value="usa">Bachelors</option>
+                <option value="uk">Masters</option>
+                <option value="nepal">Phd.</option>
+            </select><br>
+        </fieldset>
+        <label for="">Few Words:</label><br>
+        <textarea name="" id="" cols="60" rows="10" style="margin-left: 10px;"></textarea>
+        <div class="buttons">
+            <button>Send</button>
+            <button>Clear</button>
+        </div>
+    </form>
+</body>
+</html>
