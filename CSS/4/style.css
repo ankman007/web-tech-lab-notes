@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css grouping selector */
+nav, header, footer{
+    height: 5vh;
+}
+/* simple selector */
+.container{
+    width: 100%;
+}

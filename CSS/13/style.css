@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+.round{
+    border-radius: 10px;
+}
+.rounder{
+    border-radius: 20px;
+}
+.roundest{
+    border-radius: 75px;
+}

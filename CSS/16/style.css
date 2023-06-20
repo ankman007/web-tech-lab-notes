@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+h1{
+    color: red;
+    text-align: end;
+    word-spacing: 4px;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    text-shadow: 40px;
+}

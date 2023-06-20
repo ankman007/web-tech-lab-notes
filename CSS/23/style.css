@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+div{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    background: rgb(242, 198, 207);
+}
+.container-1{
+    overflow: auto;
+}
+.container-2{
+    overflow: hidden;
+}
+.container-3{
+    overflow: scroll;
+}
+.container-4{
+    overflow: visible;
+}

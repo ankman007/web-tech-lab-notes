@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.container{
+    position: relative;
+    background: bisque;
+    height: 100vh;
+    width: 100%;
+}
+div{
+    border-radius: 2px;
+    border: 2px solid yellowgreen;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    position: absolute;
+    color: white;
+}
+.box1{
+    z-index: 2;
+    background: red;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.box1{
+    z-index: 1;
+    background: black;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+.box1{
+    z-index: 2;
+    background: blue;
+    position: relative;
+    top: 90px;
+}

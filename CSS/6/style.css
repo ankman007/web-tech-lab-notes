@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a[target]{
+    font-size: 40px;
+}
+a[target="_blank"]{
+    color: teal;
+}
+input[placeholder~="enter"]{
+    height: 100px;
+}
+input[class|="text"]{
+    margin: 20px;
+}
+input[class^="text"]{
+    width: 60px;
+}
+a[target$="nk"]{
+    margin: 40px;
+}
+a[target*="an"]{
+    padding: 40px;
+}

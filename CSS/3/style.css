@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 100%;
+}
+header, nav, footer{
+    height: 5vh;
+}
+header{
+    background: black;
+}
+nav{
+    background: blueviolet;
+}
+article{
+    background: burlywood;
+    height: 20vh;
+}
+section{
+    background: blue;
+    height: 60vh;
+}
+footer{
+    background: rebeccapurple;
+}

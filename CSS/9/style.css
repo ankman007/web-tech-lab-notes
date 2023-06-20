@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* descendant selector (space) */
+ul li{ 
+    list-style: none;
+    margin-left: 40px;
+}
+
+/* child selector (>) */
+main > section{
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* adjacent sibling selector (+) */
+article + div {
+    background: black;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+
+/* general sibling selector (~) */
+main ~ div{
+    background: red;
+}
+

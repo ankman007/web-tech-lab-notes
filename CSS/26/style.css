@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+article, section{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+section{
+    background: goldenrod;
+    box-sizing: content-box;
+}
+article{
+    background: grey;
+    box-sizing: border-box;
+}

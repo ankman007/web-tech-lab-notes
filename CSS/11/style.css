@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 80%;
+    
+}
+div{
+    width: 100%;
+    height: 30px;
+    border: 1px;
+    margin: 5px;
+}
+.dotted{
+    border: green dotted ;
+}
+.dashed{
+    border: blue dashed;
+}
+.solid{
+    border: pink solid ;
+}
+.double{
+    border: green double;
+}
+.groove{
+    border: red groove;
+}
+.ridge{
+    border: gray ridge;
+}
+.inset{
+    border: rgb(4, 4, 121) inset;
+}
+.outset{
+    border: green outset;
+}
+.no-border{
+    border: 0;
+}
+.hidden-border{
+    border: black hidden;
+}
+.mixed-border{
+    border-top: dotted;
+    border-left: double;
+    border-bottom: solid;
+    border-right: dashed;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1::first-letter{
+    color: brown;
+    font-size: 90px;
+}
+p::first-line{
+    font-size: 60px;
+    color: blue;
+}
+::selection{
+    outline: 50px;
+    cursor: progress;
+    color: yellow;
+    background: black;
+}
+ul li::marker {
+    content: '✝ ';
+    font-size: 1.2em;
+}
+
+
