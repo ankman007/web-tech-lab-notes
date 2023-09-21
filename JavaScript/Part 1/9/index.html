@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%; 
+            height: 100vh;
+            background: beige;
+        }
+        .container{
+            margin: 10px auto;
+        }
+        input{
+            width: 100px;
+        }
+        button{
+            margin: 5px 10px 0 0;
+        }
+        h5{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <label for="input">Input Two Numbers: </label>
+        <input id="number-1" type="text">
+        <input id="number-2" type="text">
+    </div>
+
+    <div class="buttons">
+        <button onclick="addition()">Add</button>
+        <button onclick="subtraction()">Subtract</button>
+        <button onclick="multiplication()">Multiply</button>
+        <button onclick="division()">Divide</button>
+    </div>
+
+    <h5>Performed Operations</h5>
+    <ol id="operations">
+
+    </ol>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qn 4</title>
+
+</head>
+<body>
+    <form action="#" onsubmit="return validateForm()">
+        <table>
+            <tr>
+                <td>Username: </td>
+                <td><input type="text" id="username"></td>            
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>Re-Password: </td>
+                <td><input type="password" id="re-password"></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td><input type="radio" name="gender"> Male<input type="radio" name="gender"> Female<input type="radio" name="gender">Other</td>
+            </tr>
+            
+            <tr>
+                <td>Hobbies: </td>
+                <td>
+                    <input type="checkbox" id="football" name="hobbies" value="football">Football
+                    <input type="checkbox" id="cricket" name="hobbies" value="cricket">Cricket
+                    <input type="checkbox" id="gaming" name="hobbies" value="gaming">Gaming<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nationality: </td>
+                <td>
+                    <select name="select" id="select" required>
+                        <option value="select">Select</option>
+                        <option value="usa">USA</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="india">India</option>
+                        <option value="ghana">Ghana</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td>Phone No: </td>
+                <td><input type="tel" id="phone" required></td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

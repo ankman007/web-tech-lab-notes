@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qn. 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="post.php" onsubmit="validate()">
+        <label for="username">Username: </label>
+        <input type="text" id="username"><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password"><br>
+
+        <label for="phone">Phone No: </label>
+        <input type="tel" id="phone"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
